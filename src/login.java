@@ -107,6 +107,11 @@ public class login extends javax.swing.JFrame {
             setVisible(false);
             new home().setVisible(true);
         }
+        else if(jTextField1.getText().equals("sahith") && jPasswordField1.getText().equals("bunny"))
+        {
+            setVisible(false);
+            new home().setVisible(true);
+        }
         else
             JOptionPane.showMessageDialog(null,"Incorrect Usrname or Password");
     }//GEN-LAST:event_jButton1ActionPerformed
